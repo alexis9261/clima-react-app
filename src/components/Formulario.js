@@ -68,14 +68,9 @@ const Formulario = ({ busqueda, setBusqueda, setConsulta }) => {
                 </select>
                 <label htmlFor="pais">País:</label>
             </div>
-            <div className="input-flied col s12">
-                <input 
-                    type="submit"
-                    value="Buscar clima"
-                    className="waves-effect waves-light btn-large btn-block yellow accent-4"
-                />
-
-            </div>
+            <button class="btn btn-large waves-effect waves-light orange accent-4 col s12" type="submit">
+                Buscar Clima
+            </button>
         </form>
      );
 }
